@@ -1,0 +1,13 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+@address = https://localhost:7183
+ 
+ 
+POST {{address}}/techs
+Content-Type: application/json
+ 
+{
+  "firstName": "Bob",
+  "lastName": "Smith",
+  "email": "bob@aol.com",
+  "phone": "555-1212"
+}
